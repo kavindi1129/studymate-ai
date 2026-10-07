@@ -1,4 +1,16 @@
+# Virtual environment
 .venv/
+
+# Secrets — never commit your API key
 .env
+providers.json
+
+# ZCode local session data
+.zcode/
+
+# Python artifacts
 __pycache__/
 *.pyc
+
+# Streamlit cache
+.streamlit/secrets.toml
